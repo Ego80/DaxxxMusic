@@ -10,7 +10,7 @@ heroku3
 httpx==0.27.2
 motor
 numpy
-pillow==11.2.1
+pillow==10.3.0
 psutil
 py-tgcalls==0.9.7
 pykeyboard
@@ -23,8 +23,10 @@ spotipy
 tgcrypto
 python-telegram-bot
 unidecode
-yt-dlp
-git+https://github.com/yt-dlp/yt-dlp
 youtube-search
 youtube-search-python
 wget
+# yt-dlp ko GitHub se install karenge (latest updates ke liye)
+git+https://github.com/yt-dlp/yt-dlp
+# SafoneAPI dependency (ye tumhare code me required hai)
+git+https://github.com/SafoneAPI/SafoneAPI.git
